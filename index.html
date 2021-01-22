@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="author" content="Abhishek Jaiswal">
+<meta name="keyword" content="Raja, Chor, Mantri, Police, online game,Indian Game ">
+
+
+<title>Raja Mantri Chor Police Game</title>
+<script src="game.js"></script>
+<link rel="stylesheet" href="game.css"></link>
+</head>
+<body>
+<div id="headDiv">
+
+<div id="header">
+<div id="myNav" class="overlay">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<div class="overlay-content">
+<a href="index.html">Play Game</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</div> 
+</div>
+<h3 style="padding-left:15px" onclick="openNav()">&#9776;<span style="padding-left:14%">Raja Mantri Chor Police</span></h3>
+</div>
+<div id="nameInput">
+<h3>Enter require details to start :</h3>
+<input type="text" id="name1" placeholder="Name of Player 1" class="inputName" >
+<input type="text" id="name2" placeholder="Name of Player 2" class="inputName">
+<input type="text" id="name3" placeholder="Name of Player 3" class="inputName" >
+<input type="text" id="name4" placeholder="Name of Player 4" class="inputName"><br>
+<input type="text" id="numOfRound" placeholder="Number of round">
+<input type="button" class="btn" id="subNam" value="Start" >
+</div>
+<hr id="gameLoc">
+<div id="board">
+<div id="play1">
+<div class="name" >
+<h2 id="pl1">Player 1</h2>
+</div>
+<h1 id="player1"></h1>
+</div>
+<br>
+<div id="play2" >
+<div class="name">
+<h2 id="pl2">Player 2</h2>
+</div>
+<h1 id="player2"></h2>
+</div>
+<br>
+<div id="play3" >
+<div class="name">
+<h2 id="pl3">Player 3</h2>
+</div>
+<h1 id="player3"></h3>
+</div>
+<br>
+<div id="play4" >
+<div class="name">
+<h2 id="pl4">Player 4</h2>
+</div>
+<h1 id="player4" ></h1>
+</div>
+</div>
+<button  class="btn"  id="play">Play</button>
+
+
+<hr id="result" />
+<div id="pointTable">
+<h3><b>Number of Play : </b><span id="countNum">0 </span></h3>
+
+
+<table>
+
+<tr><th>Name</th><th>Point</th></tr>
+<tr>
+<td id="nameOne">Player 1</td>
+<td id="pointOne">0</td>
+</tr>
+
+
+<tr>
+<td id="nameTwo">Player 2</td>
+<td id="pointTwo">0</td>
+</tr>
+
+<tr>
+<td id="nameThree">Player 3</td>
+<td id="pointThree">0</td>
+</tr>
+
+<tr>
+<td id="nameFour">Player 4</td>
+<td id="pointFour">0</td>
+</tr>
+</table>
+<br>
+<h1 id="winner"></h1>
+</div>
+
+<div id="foot">
+<h4>© Abhishek Jaiswal, GP Adityapur</h4>
+</div>
+
+</div>
+
+</body>
+
+</html>
+
