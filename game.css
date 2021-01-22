@@ -212,12 +212,13 @@ top:0;
 left:0;
 text-align:left;
 background-color: #262626;
-font-family:"Comic Sans MS";
+font-family:serif;
 color:white;
 }
 
 
 #winner{
+  font-family:serif;
   animation-name:winner;
   animation-duration:3s;
   font-weight: 200;
