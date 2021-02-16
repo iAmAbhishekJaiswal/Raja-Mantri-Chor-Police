@@ -1,7 +1,9 @@
 body{
 background-color:black;
 }
-
+a{
+text-decoration:none;
+}
 #board{
 text-align:center;
 margin-top:30%;
